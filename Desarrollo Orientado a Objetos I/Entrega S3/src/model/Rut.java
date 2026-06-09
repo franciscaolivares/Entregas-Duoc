@@ -40,6 +40,7 @@ public class Rut {
 
     @Override
     public String toString() {
+
         return "RUT: " + numero;
     }
 }
