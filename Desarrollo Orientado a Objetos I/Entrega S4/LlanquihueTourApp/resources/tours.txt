@@ -1,0 +1,5 @@
+Ruta del Lago;lacustre;18000
+Sabores del Sur;gastronomico;25000
+Cultura Llanquihue;cultural;15000
+Volcan Osorno;aventura;30000
+Mercado Local;gastronomico;12000
