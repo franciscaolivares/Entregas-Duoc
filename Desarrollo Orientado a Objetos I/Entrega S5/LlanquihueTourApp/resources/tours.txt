@@ -1,0 +1,5 @@
+Ruta del Lago;lacustre;18000;Camila Carvajal;9782637766
+Sabores del Sur;gastronomico;25000;Pedro Díaz;97283647
+Cultura Llanquihue;cultural;15000;Daniel Muñoz;973647362
+Volcan Osorno;aventura;30000;Pamela Rojas;91728364
+Mercado Local;gastronomico;12000;Nestor Hidalgo;982764527
