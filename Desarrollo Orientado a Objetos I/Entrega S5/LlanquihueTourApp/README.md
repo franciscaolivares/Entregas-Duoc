@@ -11,9 +11,10 @@
 
 # Descripción
 
-Este proyecto corresponde a la actividad formativa de la semana 4 y de la actividad sumativa de la semana 5 de la asignatura Desarrollo Orientado a Objetos I.
+Este proyecto corresponde a la actividad formativa de la semana 4, también de la actividad sumativa de la semana 5 y formativa de la semana 6 de la asignatura Desarrollo Orientado a Objetos I.
 El objetivo es desarrollar una aplicación en Java capaz de leer información desde un archivo de texto (.txt), crear objetos a partir de esos datos y almacenarlos en una colección dinámica utilizando ArrayList.
 La aplicación permite recorrer la colección completa de tours turísticos y aplicar filtros según determinadas condiciones, fortaleciendo el uso de clases, objetos, colecciones, lectura de archivos y organización de proyectos mediante paquetes.
+En la semana 6 se incorporó una jerarquía de clases utilizando herencia simple, donde una superclase representa los servicios turísticos generales y las subclases representan distintos tipos de servicios ofrecidos por la agencia.
 ---
 
 # Estructura del proyecto
@@ -23,7 +24,10 @@ LlanquihueTourApp
 ├── src
 │   ├── model
 │   │   └── Tour.java
-│   │   └── Guia.java
+│   │   └── ServicioTuristico.java
+│   │   └── RutaGastronomica.java
+│   │   └── PaseoLacustre.java
+│   │   └── ExcursionCultural.java
 │   ├── data
 │   │   └── GestorDatos.java
 │   └── ui
