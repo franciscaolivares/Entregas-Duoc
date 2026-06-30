@@ -1,5 +1,6 @@
 package ui;
 import data.GestorDatos;
+import data.GestorServicios;
 import model.Tour;
 import java.util.ArrayList;
 
@@ -7,8 +8,14 @@ public class Main {
 
   public static void main (String[] args) {
 
-    GestorDatos gestor = new GestorDatos();
+    /*Semana 6
+    Herencia*/
+    GestorServicios gestorServicios = new GestorServicios();
 
+    System.out.println("\n Servicios Turísticos: ");
+    gestorServicios.mostrarServicios();
+
+    GestorDatos gestor = new GestorDatos();
     ArrayList<Tour> tours = gestor.cargarTours("resources/tours.txt");
 
     System.out.println("\n LISTA COMPLETA DE TOURS: ");
